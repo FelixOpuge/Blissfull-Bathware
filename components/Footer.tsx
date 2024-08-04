@@ -2,42 +2,41 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 text-gray-200 py-10">
+    <footer className="container bg-gray-100 border-t border-gray-300 py-8">
       <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Contact Form */}
         <div>
-          <h3 className="text-xl font-semibold text-gray-100 mb-4">Contact Us</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Contact Us</h3>
           <form>
             <div className="mb-4">
-              <label className="block text-gray-400 text-sm font-bold mb-2" htmlFor="name">
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
                 Name
               </label>
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="name"
                 type="text"
                 placeholder="Your name"
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-400 text-sm font-bold mb-2" htmlFor="email">
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
                 Email
               </label>
               <input
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="email"
                 type="email"
                 placeholder="Your email"
               />
             </div>
             <div className="mb-4">
-              <label className="block text-gray-400 text-sm font-bold mb-2" htmlFor="message">
+              <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
                 Message
               </label>
               <textarea
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline"
+                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="message"
-                rows="4"
                 placeholder="Your message"
               ></textarea>
             </div>
@@ -53,45 +52,45 @@ const Footer = () => {
         </div>
 
         {/* Contact Details */}
-        <div>
-          <h3 className="text-xl font-semibold text-gray-100 mb-4">Contact Details</h3>
-          <p className="text-gray-400 mb-2">Email: contact@blissfulbathware.com</p>
-          <p className="text-gray-400 mb-2">Phone: (123) 456-7890</p>
-          <p className="text-gray-400 mb-2">Address: 123 Blissful Lane, Bath City, BC 12345</p>
+        <div className='gap-y-3'>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Contact Details</h3>
+          <p className="text-gray-600">Email: contact@blissfulbathware.com</p>
+          <p className="text-gray-600">Phone: (123) 456-7890</p>
+          <p className="text-gray-600">Address: 123 Blissful Lane, Bath City, BC 12345</p>
         </div>
 
         {/* Quick Links */}
         <div>
-          <h3 className="text-xl font-semibold text-gray-100 mb-4">Quick Links</h3>
+          <h3 className="text-xl font-semibold text-gray-800 mb-4">Quick Links</h3>
           <ul className="list-none p-0">
             <li className="mb-2">
-              <Link href="/about">
-                <span className="text-blue-400 hover:underline cursor-pointer">About Us</span>
+              <Link href="/about" className='text-blue-500 hover:underline'>
+                About Us
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/products">
-                <span className="text-blue-400 hover:underline cursor-pointer">Products</span>
+              <Link href="/products" className='text-blue-500 hover:underline'>
+                Products
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/faq">
-                <span className="text-blue-400 hover:underline cursor-pointer">FAQ</span>
+              <Link href="/faq" className='text-blue-500 hover:underline'>
+                FAQ
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/contact">
-                <span className="text-blue-400 hover:underline cursor-pointer">Contact</span>
+              <Link href="/contact" className='text-blue-500 hover:underline'>
+                Contact
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/terms">
-                <span className="text-blue-400 hover:underline cursor-pointer">Terms of Service</span>
+              <Link href="/terms" className='text-blue-500 hover:underline'>
+                Terms of Service
               </Link>
             </li>
             <li className="mb-2">
-              <Link href="/privacy">
-                <span className="text-blue-400 hover:underline cursor-pointer">Privacy Policy</span>
+              <Link href="/privacy" className='text-blue-500 hover:underline'>
+                Privacy Policy
               </Link>
             </li>
           </ul>

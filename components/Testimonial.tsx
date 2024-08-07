@@ -17,11 +17,11 @@ const Testimonial = () => {
                         width={30}
                         height={30}
                     />
-                    <h2 className="text-gray-500 font-black text-[20px]">John Mwangi</h2>
+                    <h2 className="text-gray-500 font-black text-[20px]">Bush Whiteman</h2>
                     <p className="text-gray-500">CEO & Founder Blissfull</p>
                     <RiDoubleQuotesR className="text-accent text-3xl" />
                     <p className="max-w-[200px] text-gray-500">
-                        Sit ipsum veniam duis officia culpa culpa pariatur sit excepteur ea laboris sint. Dolor amet irure duis magna do Lorem incididunt enim. Ea est mollit ad est ad. Ad ipsum consectetur exercitation voluptate laboris cupidatat. Enim do sunt incididunt eu. Reprehenderit aliquip nostrud ullamco magna proident minim id. Sunt nisi enim nostrud quis.
+                      At Blissful Bathware, our goal is to curate a collection of the finest bathware products that combine elegance, functionality, and durability. Our commitment to quality and customer satisfaction drives us to offer products that transform your daily routine into a moment of tranquility and joy. Thank you for choosing Blissful Bathware for your bathroom needs
                     </p>
                 </div>
             </div>

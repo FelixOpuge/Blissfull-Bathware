@@ -8,23 +8,23 @@ const navbarLinks = [
     },
     {
         name: 'Freestanding Tubs',
-        href: '/'
+        href: '/freestanding-tubs'
     },
     {
         name: 'Clawfoot Tubs',
-        href: '/'
+        href: '/clawfoot-tubs'
     },
     {
         name: 'Drop-In Tubs',
-        href: '/'
+        href: '/dropin-tubs'
     },
     {
         name: 'Aclove Tubs',
-        href: '/'
+        href: '/aclove-tubs'
     },
     {
         name: 'Jetted Tubs',
-        href: '/'
+        href: '/jetted-tubs'
     },
 ]
 
